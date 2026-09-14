@@ -15,7 +15,7 @@ cask "cheshi" do
   depends_on arch: :arm64
   depends_on cask: "codex"
   depends_on formula: "gh"
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Cheshi.app"
 end
