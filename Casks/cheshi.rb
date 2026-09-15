@@ -1,6 +1,6 @@
 cask "cheshi" do
-  version "0.0.2-preview"
-  sha256 "d4741bd734a00ecc731454d28b6c534c0be3704d6943c24e5f390f6c95e568f3"
+  version "0.0.3-preview"
+  sha256 "cf44fa4797186d6bd6e1c674230877a08a0fbccd6e8b11757a6605f784796afe"
 
   url "https://github.com/CheshiAI/Cheshi/releases/download/v#{version}/Cheshi-darwin-arm64-#{version}.zip"
   name "Cheshi"
@@ -8,7 +8,7 @@ cask "cheshi" do
   homepage "https://github.com/CheshiAI/Cheshi"
 
   livecheck do
-    skip "Preview releases are updated manually"
+    skip "Updated by the Cheshi release workflow"
   end
 
   auto_updates true
