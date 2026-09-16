@@ -1,6 +1,6 @@
 cask "cheshi" do
-  version "0.0.3-preview"
-  sha256 "cf44fa4797186d6bd6e1c674230877a08a0fbccd6e8b11757a6605f784796afe"
+  version "0.0.4-preview"
+  sha256 "1f2c5f7f954db75238f3bc6c53d32bd943f546afd3c675ec3abeb358c9d60fbe"
 
   url "https://github.com/CheshiAI/Cheshi/releases/download/v#{version}/Cheshi-darwin-arm64-#{version}.zip"
   name "Cheshi"
